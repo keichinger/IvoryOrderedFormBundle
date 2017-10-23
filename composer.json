@@ -10,11 +10,17 @@
             "email": "geloen.eric@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:keichinger/ivory-ordered-form.git"
+        }
+    ],
     "minimum-stability": "beta",
     "require": {
         "php": "^7.1",
         "symfony/framework-bundle": "^4.0.0-BETA1",
-        "egeloen/ordered-form": "^3.0"
+        "egeloen/ordered-form": "dev-symfony-4.0#d613d08d5d0475aceff4253861446707a54bf3a6"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.0",
